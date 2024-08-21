@@ -1,0 +1,16 @@
+Graphql is query language for api.
+TypeDef contains the schema of Graphql
+Resolvers contains a function to fetch the data as defined in schema.
+
+# npx gitignore Node - It will create a gitignore file
+
+
+======== connecting with postgres db in container==================
+docker exec -it 90262566dc36 bash
+su postgres
+psql
+\l
+\c <db_name>
+\d
+
+==========================================================
